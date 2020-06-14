@@ -214,7 +214,7 @@ bool isFinishSensorTriggered(){
  * --------------------------
  * Determine whether the manual tactile button has been pressed, with
  * logic in place to prevent "double clicks" or "long presses" from being
- * registered. Thus button in my circuit was wired using a pull-up resistor,
+ * registered. This button in my circuit was wired using a pull-up resistor,
  * so the pin would go LOW when the button was pressed, but I could easily
  * have used a pull-down configuration. 
  * 
